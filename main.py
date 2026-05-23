@@ -1,9 +1,11 @@
 from dotenv import load_dotenv
-from langchain_core.prompts import PromptTemplate
-from langchain_openai import langchain_openai
-
 load_dotenv()
 
 
 
+def main():
+    print("Hello from artificial-agents!")
 
+
+if __name__ == "__main__":
+    main()
